@@ -133,25 +133,25 @@ footer {
   justify-content: end;
 }
 
-footer a {
+.blue a {
   color: var(--a_color);
   text-decoration: none;
 }
 
-footer a:hover {
+.blue a:hover {
   color: var(--a_hover_color);
   text-decoration: underline;
 }
 
-footer a:visited {
+.blue a:visited {
   color: var(--a_color);
 }
 
-footer a:visited:hover {
+.blue a:visited:hover {
   color: var(--a_hover_color);
 }
 
-.text {
+.blue.text {
   display: flex;
   align-items: center;
 }
