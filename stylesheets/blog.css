@@ -1,0 +1,24 @@
+:root {
+  --a_brackets_color: black;
+}
+
+.dark-mode {
+  --a_brackets_color: white;
+}
+
+a.brackets {
+  color: var(--a_brackets_color);
+}
+
+a.brackets:hover {
+  color: var(--a_brackets_color);
+  text-decoration: none;
+}
+
+a.brackets:visited {
+  color: var(--a_brackets_color);
+}
+
+a.brackets:visited:hover {
+  color: var(--a_brackets_color);
+}

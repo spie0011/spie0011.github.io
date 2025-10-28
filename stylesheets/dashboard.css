@@ -51,6 +51,14 @@ table, th, td {
   border: solid 0.0625rem var(--table_th_td_border-color);
 }
 
+.passing-grade {
+  background-color: var(--colour_passing_background-color)
+}
+
+.failing-grade {
+  background-color: var(--colour_failing_background-color)
+}
+
 .colour.passing {
   background-color: var(--colour_passing_background-color);
 }

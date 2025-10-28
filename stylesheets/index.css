@@ -152,3 +152,10 @@ h2.aside {
     width: auto;
   }
 }
+
+.box img {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.75rem;
+  width: 100%;
+}
